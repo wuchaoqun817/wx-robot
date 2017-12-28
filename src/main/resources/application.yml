@@ -1,0 +1,7 @@
+server:
+    port: 8082
+    context-path: /
+    address: localhost
+logging:
+    config: classpath:logback.xml
+    path:  /data/log/wx
